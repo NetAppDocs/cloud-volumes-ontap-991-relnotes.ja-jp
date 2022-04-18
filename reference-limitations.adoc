@@ -6,6 +6,7 @@ summary: 既知の制限事項は、このリリースの製品でサポート�
 ---
 = すべてのクラウドプロバイダで制約があります
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

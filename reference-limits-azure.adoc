@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP には、安定した運用を実現するために
 ---
 = Azure のストレージ制限
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
@@ -91,6 +92,9 @@ NOTE: Cloud Volumes ONTAP BYOL システムでは、複数のノードベース�
 
 
 | E64is_v3 | 29 | 368TiB | 368TiB 
+
+
+| E80ids_v4 | 61 | 368TiB | 368TiB 
 |===
 
 
@@ -138,6 +142,9 @@ NOTE: 一部の VM タイプでは、次に示す最大システム容量に到�
 
 
 | L8s_v2 の場合 | 13 | 368TiB | 368TiB | 416TiB | 1 ライセンスあたり 368 TiB 
+
+
+| E80ids_v4 | 61 | 368TiB | 368TiB | 1.95 PiB | 1 ライセンスあたり 368 TiB 
 |===
 
 
@@ -179,6 +186,9 @@ NOTE: 一部の VM タイプでは、次に示す最大システム容量に到�
 
 
 | L8s_v2 の場合 | 13 | 416TiB | 2 PiB 
+
+
+| E80ids_v4 | 61 | 1.95 PiB | 2 PiB 
 |===
 
 
@@ -204,7 +214,7 @@ NOTE: 一部の VM タイプでは、次に示す最大システム容量に到�
 | E48s_v3 | 29 | 232TiB | 368TiB 
 
 
-| E80ids_v4 | 29 | 232TiB | 368TiB 
+| E80ids_v4 | 61 | 368TiB | 368TiB 
 |===
 
 
@@ -239,7 +249,7 @@ NOTE: 一部の VM タイプでは、次に示す最大システム容量に到�
 | E48s_v3 | 29 | 232TiB | 368TiB | 232TiB | 1 ライセンスあたり 368 TiB 
 
 
-| E80ids_v4 | 29 | 232TiB | 368TiB | 232TiB | 1 ライセンスあたり 368 TiB 
+| E80ids_v4 | 61 | 368TiB | 368TiB | 488 TiB | 1 ライセンスあたり 368 TiB 
 |===
 
 
@@ -271,7 +281,7 @@ NOTE: 一部の VM タイプでは、次に示す最大システム容量に到�
 | E48s_v3 | 29 | 232TiB | 2 PiB 
 
 
-| E80ids_v4 | 29 | 232TiB | 2 PiB 
+| E80ids_v4 | 61 | 488 TiB | 2 PiB 
 |===
 
 
