@@ -650,7 +650,6 @@
   <block id="24996c045717f17c4e40ebb44791b2af" category="list-text">ライセンスや契約は必要ありません。</block>
   <block id="cc3b16b51bb72e66b8f103fef83035d9" category="list-text">ネットアップによるサポートは含まれていません。</block>
   <block id="895dacd81cbc05951744c0bce981546c" category="list-text">Cloud Volumes ONTAP システムあたりのプロビジョニング可能な容量は 500GiB に制限されています。</block>
-  <block id="46cb473c7acee70e9be90113f3acce9d" category="list-text">ネットアップのアカウント 1 つにつき、最大 10 台の Cloud Volumes ONTAP システムを任意のクラウドプロバイダで使用できます。</block>
   <block id="922e54a2e69b279fbb6ab93d4f189181" category="list-text">Cloud Volumes ONTAP システム用にプロビジョニングされた容量が 500GiB を超えると、 Cloud Manager はシステムを Essentials パッケージ（容量ベースのライセンス）に変換します。</block>
   <block id="2b5b1f6feb7719bc282a3518f33b1784" category="paragraph">プロビジョニングされた容量が 500GiB 未満の他のシステムは、 Freemium （ Freemium 製品を使用して導入されている場合）に残ります。</block>
   <block id="9911a1f4ee7b400064d4cd20d4db15cb" category="paragraph">Freemium 製品の使用を開始するには、新しい Cloud Volumes ONTAP 作業環境を作成し、充電方法の選択を求めるプロンプトが表示されたら「 * Freemium * 」を選択します。</block>
@@ -674,7 +673,6 @@
   <block id="3cc132ecf0523f86195d2baf263bfdba" category="paragraph">Essentials パッケージと Professional パッケージには、次の消費モデルがあります。</block>
   <block id="f0c74524bf1dcc2586975c7d2fab30aa" category="list-text">ネットアップから購入したライセンス（ BYOL ）。任意のクラウドプロバイダで Cloud Volumes ONTAP を導入する際に使用できます。</block>
   <block id="c603e0cd8afdb5636238d7d652481a08" category="paragraph">1 つのクラウドプロバイダに制限されることはありません。</block>
-  <block id="0a042d8bd5f070de6995ada78bbc5818" category="list-text">クラウドプロバイダのマーケットプレイスから毎年契約（ AWS と Google Cloud のみ）</block>
   <block id="f28f2c679b3208af9d5fe292ad6356b8" category="list-text">クラウドプロバイダの市場から 1 時間単位のサブスクリプション（ PAYGO ）が提供されます。</block>
   <block id="743cd9f94465042cc1367604dce1ec22" category="list-text">ネットアップからライセンスを購入した場合（ BYOL ）は、クラウドプロバイダが提供する PAYGO のサブスクリプションも必要です。</block>
   <block id="0956d25698d6ea6e452e1cd574ab1eea" category="paragraph">ライセンスは常に最初に請求されますが、次の場合は、マーケットプレイスで 1 時間ごとの料金が請求されます。</block>
@@ -767,4 +765,11 @@
   <block id="84c132b976f487cccd3001ed2c7557f2" category="cell">* 容量ベースの PAYGO または BYOL * ^3^</block>
   <block id="15e276b5f20d3f04c4dde66ecf8a249c" category="cell">* ノードベースの PAYGO *</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP クラウド</block>
+  <block id="78bd6ae14d58c0754e9678cbf2ebad05" category="list-text">ネットアップのアカウントごとに、最大 10 台の Cloud Volumes ONTAP システムを Freemium 製品で使用できます。</block>
+  <block id="612b1fa388e719e990cb953520986784" category="list-text">クラウドプロバイダの市場から年間契約を獲得できます。</block>
+  <block id="7012cf86c42fb3eec6343900832f1d08" category="list-text">AWSでは、年間契約はAWS Marketplaceで公開されています。Cloud Volumes ONTAP 作業環境を導入する際には、Cloud Managerから登録を求められます。</block>
+  <block id="1ce7e5f92b8c11b96a7b6fea0435803d" category="list-text">Azureでは、ネットアップの営業担当者と協力して年間契約を購入する必要があります。この契約は、Azure Marketplaceでのプライベートオファーとして提供されます。</block>
+  <block id="51606c7b614cdc7ab9e0489981838dfa" category="paragraph">ネットアップがお客様とプライベートオファーを共有したあとは、Azure Marketplaceでの作業環境の作成時にサブスクリプションするときに、年間プランを選択できます。</block>
+  <block id="d3ef010be2a71bc188b8cf2beb05ac32" category="list-text">Google Cloudでは、年間契約を購入するには、ネットアップの営業担当者と協力する必要があります。この契約は、Google Cloud Marketplaceでのプライベートオファーとして利用できます。</block>
+  <block id="f96723ecb29e40ca9b9fb042ab6ff4ef" category="paragraph">ネットアップがプライベートオファーを共有した後は、作業環境の作成中にGoogle Cloud Marketplaceから登録するときに、年間プランを選択できます。</block>
 </blocks>
