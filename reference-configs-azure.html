@@ -711,7 +711,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-18 17:11:21 +0000">04/18/2022</time>
+    <time datetime="2022-06-08 22:03:26 +0000">06/08/2022</time>
     
   
 
@@ -959,6 +959,9 @@
 <p>この VM タイプにはローカルの NVMe ストレージが含まれており、 Cloud Volumes ONTAP では _Flash Cache _ として使用されます。Flash Cache は、最近読み取られたユーザデータとネットアップのメタデータをリアルタイムでインテリジェントにキャッシングすることで、データへのアクセスを高速化します。データベース、 E メール、ファイルサービスなど、ランダムリードが大量に発生するワークロードに効果的です。Flash Cache のパフォーマンス向上を利用するには、すべてのボリュームで圧縮を無効にする必要があります。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-flash-cache.html" target="_blank" rel="noopener">"詳細はこちら。"</a>。</p>
 </li>
 <li>
+<p>シングルノードシステムを使用する場合、すべてのタイプのインスタンスで高速書き込みがサポートされます。高速の書き込み速度は、導入時または導入後にいつでもCloud Managerから有効にできます。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html" target="_blank" rel="noopener">"書き込み速度の選択方法の詳細については、こちらをご覧ください"</a>。</p>
+</li>
+<li>
 <p>SSD の使用時には書き込みパフォーマンスの向上が実現します。</p>
 </li>
 <li>
@@ -1029,7 +1032,7 @@
 <p>E48s_v3<sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4<sup>2</sup></p>
+<p>E80ids_v4<sup>1,2</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1061,7 +1064,7 @@
 <p>E48s_v3<sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4<sup>2</sup></p>
+<p>E80ids_v4<sup>1,2</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1089,7 +1092,7 @@
 <p>E48s_v3<sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4<sup>2</sup></p>
+<p>E80ids_v4<sup>1,2</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1117,7 +1120,7 @@
 <p>E48s_v3<sup>1</sup></p>
 </li>
 <li>
-<p>E80ids_v4<sup>2</sup></p>
+<p>E80ids_v4<sup>1,2</sup></p>
 </li>
 </ul>
 </div></div></td>
@@ -1134,7 +1137,7 @@
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Cloud Volumes ONTAP では、 HA ペアを使用する場合、これらの VM タイプで高速な書き込み速度がサポートされます。シングルノードシステムを使用する場合、すべてのタイプのインスタンスで高速書き込みがサポートされます。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html" target="_blank" rel="noopener">"書き込み速度の選択方法の詳細については、こちらをご覧ください"</a>。</p>
+<p>Cloud Volumes ONTAP では、 HA ペアを使用する場合、これらの VM タイプで高速な書き込み速度がサポートされます。高速の書き込み速度は、導入時または導入後にいつでもCloud Managerから有効にできます。 <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html" target="_blank" rel="noopener">"書き込み速度の選択方法の詳細については、こちらをご覧ください"</a>。</p>
 </li>
 <li>
 <p>この VM は、 Azure メンテナンス制御が必要な場合にのみ推奨されます。価格が高いため、他のユースケースには推奨されません。</p>
