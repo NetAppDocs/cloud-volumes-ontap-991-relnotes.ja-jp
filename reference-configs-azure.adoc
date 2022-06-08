@@ -107,6 +107,7 @@ Cloud Volumes ONTAP をシングルノードシステムとして Azure に導�
 . 従量課金制では、 Azure Blob ストレージへのデータ階層化はサポートされません。
 . この VM タイプはを使用します https://docs.microsoft.com/en-us/azure/virtual-machines/windows/disks-enable-ultra-ssd["ウルトラ SSD"^] VNVRAM の場合、書き込みパフォーマンスが向上します。
 . この VM タイプにはローカルの NVMe ストレージが含まれており、 Cloud Volumes ONTAP では _Flash Cache _ として使用されます。Flash Cache は、最近読み取られたユーザデータとネットアップのメタデータをリアルタイムでインテリジェントにキャッシングすることで、データへのアクセスを高速化します。データベース、 E メール、ファイルサービスなど、ランダムリードが大量に発生するワークロードに効果的です。Flash Cache のパフォーマンス向上を利用するには、すべてのボリュームで圧縮を無効にする必要があります。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-flash-cache.html["詳細はこちら。"^]。
+. シングルノードシステムを使用する場合、すべてのタイプのインスタンスで高速書き込みがサポートされます。高速の書き込み速度は、導入時または導入後にいつでもCloud Managerから有効にできます。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html["書き込み速度の選択方法の詳細については、こちらをご覧ください"^]。
 . SSD の使用時には書き込みパフォーマンスの向上が実現します。
 . Azure リージョンのサポートについては、を参照してください https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。
 . Cloud Volumes ONTAP は、クラウドプロバイダから予約済みまたはオンデマンドの VM インスタンスのいずれかで実行できます。他の種類の VM インスタンスを使用するソリューションはサポートされていません。
@@ -134,7 +135,7 @@ Azure で Cloud Volumes ONTAP を HA ペアとして導入する場合は、次�
 * DS15_v2 ^1
 * E8s_v3
 * E48s_v3^1^
-* E80ids_v4^2^
+* E80ids_v4^1,2^
 
  a| 
 * DS4_v2
@@ -146,7 +147,7 @@ Azure で Cloud Volumes ONTAP を HA ペアとして導入する場合は、次�
 * DS15_v2 ^1
 * E8s_v3
 * E48s_v3^1^
-* E80ids_v4^2^
+* E80ids_v4^1,2^
 
  a| 
 * DS4_v2
@@ -156,7 +157,7 @@ Azure で Cloud Volumes ONTAP を HA ペアとして導入する場合は、次�
 * DS15_v2 ^1
 * E8s_v3
 * E48s_v3^1^
-* E80ids_v4^2^
+* E80ids_v4^1,2^
 
  a| 
 * DS4_v2
@@ -166,7 +167,7 @@ Azure で Cloud Volumes ONTAP を HA ペアとして導入する場合は、次�
 * DS15_v2 ^1
 * E8s_v3
 * E48s_v3^1^
-* E80ids_v4^2^
+* E80ids_v4^1,2^
 
 
 
@@ -175,7 +176,7 @@ Azure で Cloud Volumes ONTAP を HA ペアとして導入する場合は、次�
 |===
 注：
 
-. Cloud Volumes ONTAP では、 HA ペアを使用する場合、これらの VM タイプで高速な書き込み速度がサポートされます。シングルノードシステムを使用する場合、すべてのタイプのインスタンスで高速書き込みがサポートされます。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html["書き込み速度の選択方法の詳細については、こちらをご覧ください"^]。
+. Cloud Volumes ONTAP では、 HA ペアを使用する場合、これらの VM タイプで高速な書き込み速度がサポートされます。高速の書き込み速度は、導入時または導入後にいつでもCloud Managerから有効にできます。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html["書き込み速度の選択方法の詳細については、こちらをご覧ください"^]。
 . この VM は、 Azure メンテナンス制御が必要な場合にのみ推奨されます。価格が高いため、他のユースケースには推奨されません。
 . PAYGO Explore は Azure の HA ペアではサポートされていません。
 . Azure リージョンのサポートについては、を参照してください https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。
