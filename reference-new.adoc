@@ -20,6 +20,16 @@ Cloud Volumes ONTAP 9.9.1 には、いくつかの新機能と機能拡張が含
 
 
 
+== C4、M4、およびR4のインスタンスはサポートされなくなりました（2022年10月28日）
+
+AWSでは、C4、M4、およびR4 EC2インスタンスタイプはCloud Volumes ONTAP でサポートされなくなりました。C4、M4、またはR4インスタンスタイプで実行されている既存のシステムがある場合は、C5、m5、またはr5インスタンスファミリーでインスタンスタイプに変更する必要があります。
+
+link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-change-ec2-instance.html["Cloud Volumes ONTAP のEC2インスタンスタイプを変更する方法について説明します"^]。
+
+を参照してください link:https://mysupport.netapp.com/info/communications/ECMLP2880231.html["ネットアップサポート"^] これらのインスタンスタイプの可用性とサポート終了の詳細については、を参照してください。
+
+
+
 == 9.9.1 P8（2022年5月15日）
 
 バージョン3.9.13以降を実行しているコネクタがある場合、Microsoft AzureでCloud Volumes ONTAP に対して9.9.1 P8パッチが利用できるようになりました。既存のシステムのこのパッチリリースへのアップグレードを求めるプロンプトが Cloud Manager に表示されます。
@@ -99,9 +109,9 @@ Cloud Volumes ONTAP 9.9.1 Release Candidate は、 AWS 、 Azure 、 Google Clou
 
 で導入された機能に加えて https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508["ONTAP 9.9.1"^]このリリースの Cloud Volumes ONTAP には、次の機能が含まれています。
 
-* <<ONTAP S3 support in Azure>>
-* <<Enhanced performance in AWS with high write speed>>
-* <<io2 boot disk in AWS>>
+*  S3 support in Azure
+*  performance in AWS with high write speed
+*  boot disk in AWS
 
 
 
@@ -149,14 +159,6 @@ http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ont
 * シングルノードシステムのアップグレードでは、 I/O が中断されるまで最大 25 分間システムがオフラインになります。
 * HA ペアのアップグレードは無停止で、 I/O が中断されません。無停止アップグレードでは、各ノードが連携してアップグレードされ、クライアントへの I/O の提供が継続されます。
 
-
-
-
-=== C4 、 M4 、および R4 インスタンスタイプ
-
-9.8 リリース以降では、新しい Cloud Volumes ONTAP システムで C4 、 M4 、および R4 インスタンスタイプはサポートされません。C4 、 M4 、または R4 インスタンスタイプで実行されている既存の Cloud Volumes ONTAP システムがある場合も、このリリースにアップグレードできます。
-
-C5 、 m5 、または r5 インスタンスファミリーのインスタンスタイプに変更することをお勧めします。
 
 
 
