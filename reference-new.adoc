@@ -109,9 +109,9 @@ Cloud Volumes ONTAP 9.9.1 Release Candidate は、 AWS 、 Azure 、 Google Clou
 
 で導入された機能に加えて https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508["ONTAP 9.9.1"^]このリリースの Cloud Volumes ONTAP には、次の機能が含まれています。
 
-*  S3 support in Azure
-*  performance in AWS with high write speed
-*  boot disk in AWS
+* <<Azure での ONTAP S3 のサポート>>
+* <<高速の書き込み速度で AWS のパフォーマンスが向上します>>
+* <<IO2 ： AWS でブートディスクを使用します>>
 
 
 
