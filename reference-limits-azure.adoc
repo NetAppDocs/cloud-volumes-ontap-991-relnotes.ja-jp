@@ -62,7 +62,7 @@ Cloud Volumes ONTAP システムの最大システム容量はライセンスで
 
 
 
-NOTE: Cloud Volumes ONTAP BYOL システムでは、複数のノードベースライセンスを購入して、 368 TiB を超える容量を割り当てることができます。シングルノードシステムまたは HA ペアに対して購入できるライセンスの数に制限はありません。ディスク制限によって、ディスクだけを使用することで容量制限に達することがないことに注意してください。を使用すると、ディスク制限を超えることができます https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["使用頻度の低いデータをオブジェクトストレージに階層化します"^]。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html["Cloud Volume にシステムライセンスを追加する方法について説明します ONTAP"^]。
+NOTE: Cloud Volumes ONTAP BYOL システムでは、複数のノードベースライセンスを購入して、 368 TiB を超える容量を割り当てることができます。シングルノードシステムまたは HA ペアに対して購入できるライセンスの数に制限はありません。ディスク制限によって、ディスクだけを使用することで容量制限に達することがないことに注意してください。を使用すると、ディスク制限を超えることができます https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["使用頻度の低いデータをオブジェクトストレージに階層化します"^]。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html["Cloud Volume にシステムライセンスを追加する方法について説明します ONTAP"^]。
 
 
 
@@ -314,7 +314,7 @@ Cloud Volumes ONTAP は Azure ストレージをディスクとして使用し�
 
 これらはテスト済みの制限です。理論的には追加の Storage VM を設定できますが、サポート対象外です。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-svms-azure.html["Storage VM を追加で作成する方法について説明します"^]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azure.html["Storage VM を追加で作成する方法について説明します"^]。
 
 [cols="2*"]
 |===

@@ -21,14 +21,12 @@
   <block id="1de430b06ad7ac64cf016ffed9f4194b" category="section-title">Cloud Volumes ONTAP HA ペアでは、ストレージの迅速な使用はサポートされません ギブバック</block>
   <block id="d69dddad3d38a1500a52e7e599cb94df" category="paragraph">ノードがリブートしたら、ストレージを戻す前に、パートナーがデータを同期する必要があります。データの再同期にかかる時間は、ノードが停止している間にクライアントが書き込んだデータの量、およびギブバックの実行中のデータの書き込み速度によって異なります。</block>
   <block id="ac1c2f0887629ee768721c3b8cf91e3a" category="inline-link">Cloud Volumes ONTAP HA でのストレージの仕組みをご確認ください AWS で実行されているペア</block>
-  <block id="1ede57873000993784f510b4546c1c3f" category="paragraph"><block ref="946966cdbb5ad64ec13d8ce9c3014b31" category="inline-link-rx"></block>。</block>
   <block id="00341a78c2eaf7d804cfe027a2f67870" category="summary">信頼性の高い運用を実現するために、 Cloud Volumes ONTAP には AWS にストレージ構成の制限があります。最大のパフォーマンスを得るためには、システムを最大値で構成しないでください。</block>
   <block id="6870aed8e6dfc4f093d5b5c6f8a4d81c" category="doc">AWS のストレージの制限</block>
   <block id="b3dfe19c7d46d1f8795ac17bf3d5a909" category="paragraph">Cloud Volumes ONTAP には、安定した運用を実現するために、ストレージ構成の制限があります最大のパフォーマンスを得るためには、システムを最大値で構成しないでください。</block>
   <block id="ecedb9353641e4bd058af0268a6edce8" category="section-title">ライセンス別の最大システム容量</block>
   <block id="6fa7d9268a4a052eee070e7e621245fe" category="paragraph">Cloud Volumes ONTAP システムの最大システム容量はライセンスで決まります。最大システム容量には、ディスクベースのストレージに加えて、データの階層化に使用されるオブジェクトストレージが含まれます。</block>
   <block id="ba23388576c937a1743b84554bd13c72" category="inline-link">使用頻度の低いデータをオブジェクトストレージに階層化します</block>
-  <block id="13e43f7520d8163c6554fc15774d56ed" category="paragraph">一部の構成では、ディスク制限により、ディスクのみを使用して容量制限に達することができません。その場合、で容量の制限に達することができます<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>。詳細については、以下の容量とディスクの制限を参照してください。</block>
   <block id="794df3791a8c800841516007427a2aa3" category="cell">使用許諾</block>
   <block id="643a529396d04bbbe61c8daa70456163" category="cell">最大システム容量（ディスク + オブジェクトストレージ）</block>
   <block id="d8fe59d93325a956d9b5fd3e85bb96d8" category="cell">フリーミアム</block>
@@ -49,7 +47,6 @@
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
   <block id="5eb6e090da55ad28bf2f9c1286619ef2" category="list-text">以下のディスク制限は、ユーザデータが格納されたディスクに固有です。この制限には、ブートディスクとルートディスクは含まれていません。</block>
   <block id="275e3ef1a302e67e93bcf0f30d566f74" category="inline-link">Cloud Volume にシステムライセンスを追加する方法について説明します ONTAP</block>
-  <block id="bb1dfd389b14b44028041022a8d2899f" category="list-text">Cloud Volumes ONTAP BYOL システムに複数のノードベースライセンスを購入して、 368 TiB を超える容量を割り当てることができるようになりました。シングルノードシステムまたは HA ペアに対して購入できるライセンスの数に制限はありません。ディスク制限によって、ディスクだけを使用することで容量制限に達することがないことに注意してください。を使用すると、ディスク制限を超えることができます<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>。<block ref="cd9ff634efd9a4fe20f170cd618702b5" category="inline-link-rx"></block>。</block>
   <block id="129e3a061f7870067c1e133ba0a412f2" category="section-title">Premium ライセンスがあるシングルノード</block>
   <block id="d9a17c1c9e8ef6866e4dbeef41c741b2" category="cell">インスタンス</block>
   <block id="4f42986706a322f09678a2f25be54dd9" category="cell">ノードあたりの最大ディスク数</block>
@@ -102,7 +99,6 @@
   <block id="a95e3bd264855a83a2c90be11b509673" category="section-title">Storage VM の制限</block>
   <block id="3327bf895c2d31f9b328aa44c7400786" category="paragraph">一部の構成では、 Cloud Volumes ONTAP 用に Storage VM （ SVM ）を追加で作成することができます。</block>
   <block id="10a824a307a3ec9647d72cf1842c2254" category="inline-link">Storage VM を追加で作成する方法について説明します</block>
-  <block id="94603c2f4a34dbb9c9a2fa72acf1b544" category="paragraph"><block ref="b409a35c1f5637c3fa6cd7bc9b79706b" category="inline-link-rx"></block>。</block>
   <block id="82060d81b7ce43c57280e879899f9a2c" category="cell">ライセンスタイプ</block>
   <block id="2b32b0b2d0f29c87c701d113a9b7814c" category="cell">Storage VM の最大数</block>
   <block id="b44aff299926ff48d9c9937caf2bcc7c" category="list-text">データ提供用の Storage VM × 1</block>
@@ -210,7 +206,6 @@
   <block id="1538d38eb23a96781db500ec7bd30195" category="inline-link">サポートされる Azure リージョンの一覧を参照してください</block>
   <block id="5520e32d61a58dff51fc6730939c3baf" category="summary">Cloud Volumes ONTAP には、信頼性の高い運用を実現するために、 Google Cloud にストレージ構成の制限があります。最大のパフォーマンスを得るためには、システムを最大値で構成しないでください。</block>
   <block id="c73908091fadeb9dec16abab42821644" category="doc">Google Cloud のストレージ制限</block>
-  <block id="b5110a96ee31f0d84f4df3d51e44588e" category="paragraph">一部の構成では、ディスク制限により、ディスクのみを使用して容量制限に達することができません。を使用して容量の制限に達することができます<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>。詳細については、以下のディスク制限を参照してください。</block>
   <block id="47a5e6e39f64ff5d5dfb25da1aa3f3f2" category="cell">500 GB</block>
   <block id="5f807342ab46838a576d3111827add1c" category="cell">2TB （ Explore ではデータ階層化はサポートされません）</block>
   <block id="1191f788083da9194f8eef9400d10898" category="cell">10 TB</block>
@@ -269,7 +264,6 @@
   <block id="aa7f77e663b832d5b0e544c5511e680c" category="cell">サポート対象外</block>
   <block id="b13356b20cd05f0312d51b60b5736e0f" category="list-text">HA ペアの場合、容量の上限は HA ペア全体に適用されます。ノード単位ではありません。たとえば、 Premium ライセンスを使用する場合、両方のノード間で最大 368 TiB の容量を確保できます。</block>
   <block id="9cb3b0db1f5a7a0032a165789bcde1dd" category="inline-link-macro">ストレージの制限</block>
-  <block id="200f2587d6d9c86f9f31c89a52660dd4" category="list-text">一部の構成では、ディスク制限により、ディスクのみを使用して容量制限に達することができません。その場合、で容量の制限に達することができます<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>。ディスクの制限については、を参照してください <block ref="71ccaacc6f6c8feca068c7ff1a7b2eb5" category="inline-link-macro-rx"></block>。</block>
   <block id="714ff467ced5dd4ad0cd34ca2d29d911" category="list-text">PAYGO Explore を除くすべての Cloud Volumes ONTAP 構成で SSD を使用する場合は、書き込みパフォーマンスの向上が有効になります。</block>
   <block id="907c78338365697be8fd8d4a130503c8" category="list-text">スループット最適化 HDD （ st1 ）を使用している場合、オブジェクトストレージへのデータの階層化は推奨されません。</block>
   <block id="36e4aa065725aff22926f2fed53bc3c7" category="section-title">サポートされるディスクサイズ</block>
@@ -345,9 +339,7 @@
   <block id="0ac094105593f2223af0fadea2d4e6d0" category="cell">r5.12xlarge ^3^</block>
   <block id="0584ce565c824b7b7f50282d9a19945b" category="cell">384</block>
   <block id="dfeeabb8d703f59f841c2a6e2ed8d240" category="inline-link">Flash Cache の詳細については、こちらをご覧ください</block>
-  <block id="ea501cab10ad53ac25a0413ab3b40e3b" category="list-text">一部のインスタンスタイプにはローカル NVMe ストレージが含まれており、 Cloud Volumes ONTAP では _Flash Cache _ として使用されます。Flash Cache は、最近読み取られたユーザデータとネットアップのメタデータをリアルタイムでインテリジェントにキャッシングすることで、データへのアクセスを高速化します。データベース、 E メール、ファイルサービスなど、ランダムリードが大量に発生するワークロードに効果的です。Flash Cache のパフォーマンス向上を利用するには、すべてのボリュームで圧縮を無効にする必要があります。<block ref="f318540a9100d71afa67f65db482ff92" category="inline-link-rx"></block>。</block>
   <block id="18ca3c89ae9e8edbe217f2c9b7c6107d" category="inline-link">書き込み速度の選択方法の詳細については、こちらをご覧ください</block>
-  <block id="ecaae8a00365bc31bac2a2e1afa5c71d" category="list-text">Cloud Volumes ONTAP では、 HA ペアを使用する場合、ほとんどのインスタンスタイプで高速な書き込みがサポートされます。シングルノードシステムを使用する場合、すべてのタイプのインスタンスで高速書き込みがサポートされます。<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>。</block>
   <block id="8e6a2ebba2f4ad1a560224744383ef97" category="list-text">r5.12xlarge インスタンスタイプには、サポート性に関する既知の制限があります。パニックが原因でノードが予期せずリブートした場合は、トラブルシューティングに使用されるコアファイルがシステムで収集されず、問題の原因となる可能性があります。お客様はリスクと限定的なサポート条件に同意し、この状況が発生した場合はすべてのサポート責任を負います。この制限は、新規に導入した HA ペアおよび 9.8 からアップグレードした HA ペアに適用されます。ただし、新しく導入するシングルノードシステムには影響しません。</block>
   <block id="f18904153dfcf72e0d6ca5f227644b87" category="list-text">この EC2 インスタンスタイプでは 48 個以上の vCPU がサポートされますが、 Cloud Volumes ONTAP では最大 48 個の vCPU がサポートされます。</block>
   <block id="9de28fbf6817cd511eb799f9575b611d" category="list-text">EC2 インスタンスタイプを選択する場合は、そのインスタンスが共有インスタンスか専用インスタンスかを指定できます。</block>
@@ -411,7 +403,6 @@
   <block id="11509498a3f1573cdde878f927dc10bd" category="inline-link">ウルトラ SSD</block>
   <block id="0a1f6a0fa33e6a786e0c1f71a0ea33a9" category="list-text">この VM タイプはを使用します<block ref="d656d82278337f3ecf8db6b2a30a45f2" category="inline-link-rx"></block> VNVRAM の場合、書き込みパフォーマンスが向上します。</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">詳細はこちら。</block>
-  <block id="98fffe7875c6770d43b18275f6508460" category="list-text">この VM タイプにはローカルの NVMe ストレージが含まれており、 Cloud Volumes ONTAP では _Flash Cache _ として使用されます。Flash Cache は、最近読み取られたユーザデータとネットアップのメタデータをリアルタイムでインテリジェントにキャッシングすることで、データへのアクセスを高速化します。データベース、 E メール、ファイルサービスなど、ランダムリードが大量に発生するワークロードに効果的です。Flash Cache のパフォーマンス向上を利用するには、すべてのボリュームで圧縮を無効にする必要があります。<block ref="11a0a91823c32739dc802a8a06ed9368" category="inline-link-rx"></block>。</block>
   <block id="5063d3259058d90bbca06465957626d7" category="list-text">SSD の使用時には書き込みパフォーマンスの向上が実現します。</block>
   <block id="7c7627c6477255acb2239bd1be90f346" category="list-text">Azure リージョンのサポートについては、を参照してください<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="e7089e61c962cfdae0de5b1d0748b6f2" category="list-text">Cloud Volumes ONTAP は、クラウドプロバイダから予約済みまたはオンデマンドの VM インスタンスのいずれかで実行できます。他の種類の VM インスタンスを使用するソリューションはサポートされていません。</block>
@@ -438,14 +429,7 @@
   <block id="6678cc30386be959db340cbdd54ecbda" category="section-title">クラウドプロバイダの Snapshot をバックアップとリカバリの計画に使用しないでください</block>
   <block id="f6fdc425c22fbe91b4cd43c5702c7923" category="paragraph">クラウドプロバイダのスナップショットは、 Cloud Volumes ONTAP データのバックアップとリカバリの計画には使用しないでください。Cloud Volumes ONTAP でホストされているデータのバックアップとリストアには、必ず ONTAP の Snapshot コピーや他社製のバックアップソリューションを使用してください。</block>
   <block id="67d7a5c14e214f7b934e856c06da0715" category="inline-link">Cloud Backup を使用して ONTAP データをバックアップおよびリストアする方法について説明します</block>
-  <block id="443a414b4a757c94692c441459b5f1b1" category="paragraph"><block ref="1e088a8c9990509be2811306992852a3" category="inline-link-rx"></block>。</block>
   <block id="3d880dec2575e676954faf6a6a218972" category="admonition">データの整合性は、 WAFL ファイルシステムの ONTAP 整合ポイントによって決まります。WAFL ファイルシステムを休止して crash-consistent バックアップを実行できるのは、 ONTAP のみです。</block>
-  <block id="d302a39827e370146d2861389e98e60c" category="section-title">中国地域でのサポート</block>
-  <block id="da059bd73f7531380888607adbbd03aa" category="paragraph">Cloud Volumes ONTAP は中国で次のようにサポートされています。</block>
-  <block id="cbf02fb0cb394b4b19fb0788f9b62554" category="list-text">Cloud Volumes ONTAP 9.6 は、 AWS 中国のリージョンでサポートされます。</block>
-  <block id="fcf30aaa0348521d4d4752992c9db378" category="list-text">シングルノードシステムがサポートされます。</block>
-  <block id="80a79e3e92d4834ae8746d205e83c105" category="list-text">ネットアップから直接購入したライセンスはサポートされます。</block>
-  <block id="a5a1e4029969159a5f8fdeddd3fb7e1b" category="paragraph">その他の場所、バージョン、構成、ライセンスはすべてサポートされていません。</block>
   <block id="38220a2514a2fcb218be440c035b4175" category="section-title">Cloud Volumes ONTAP は、予約済みおよびオンデマンドの VM インスタンスをサポートします</block>
   <block id="8ce602039d8c7d53c95e1f62b1d83ef0" category="paragraph">Cloud Volumes ONTAP は、クラウドプロバイダから予約済みまたはオンデマンドの VM インスタンスのいずれかで実行できます。それ以外のタイプの VM インスタンスはサポートされません。</block>
   <block id="f9492a63b4f60679d003c1e9c0ebbb18" category="paragraph">アプリケーションリソースの自動管理ソリューションでは、 Cloud Volumes ONTAP システムを管理しないでください。サポートされていない構成に変更される可能性があります。たとえば、このソリューションでは、 Cloud Volumes ONTAP をサポート対象外の VM インスタンスタイプに変更する場合があります。</block>
@@ -514,7 +498,6 @@
   <block id="ae4cd94b7cc987333c1e7777ad039bc6" category="paragraph">CLI を使用することが、 Cloud Volumes ONTAP からの S3 クライアントアクセスを設定するためのベストプラクティスです。詳細については、を参照してください<block ref="49e8fee748cd4c8d6f01bdb03113fc2a" category="inline-link-rx"></block>。</block>
   <block id="0b4aca79467c89cc8b72ab4f0d58ce24" category="section-title">高速の書き込み速度で AWS のパフォーマンスが向上します</block>
   <block id="592a11e70865354385c68046a8c4f7db" category="inline-link">高速の書き込み速度</block>
-  <block id="2031d91c633d7bb7f1fb7b4d2a271cf8" category="paragraph">Cloud Volumes ONTAP のスループットパフォーマンスが向上しました いつ<block ref="43db3562c04534eb1c4221b80985edc2" category="inline-link-rx"></block> サポートされているインスタンスタイプで有効になっている。</block>
   <block id="e4b3e02d200753cd3b178d20fb8f398a" category="section-title">IO2 ： AWS でブートディスクを使用します</block>
   <block id="c84752dd79544448d536900ed5d574ed" category="paragraph">AWS では、新しい Cloud Volumes ONTAP システムのブートディスクがプロビジョニングされた IOPS SSD （ IO2 ）ボリュームになります。IO2 ボリュームは、以前はブートディスクに使用されていた io1 ボリュームよりも信頼性が高くなります。</block>
   <block id="b5cb41a6703cf18b4cecd5a0817f91cf" category="section-title">アップグレードに関する注意事項</block>
@@ -534,7 +517,6 @@
   <block id="056d5ee0191954b71fbb1a0eec04a22a" category="list-text">N2-standard-8</block>
   <block id="8f66358785ed8f4d9a356630a4ee515c" category="list-text">N2-standard-32</block>
   <block id="8fb6e38745600f700e7342cdd70e43f5" category="cell">ゾーン型永続ディスク（ SSD 、分散、標準）</block>
-  <block id="869d12417f0d6085bf2ee05d7abd89e6" category="list-text">ディスク制限を使用すると、ディスクのみを使用することでシステムの最大容量に達することができません。を使用して容量の制限に達することができます<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>。</block>
   <block id="f30cabe0a77d16d16cf1ef723d8eb186" category="inline-link-macro">Google Cloud のディスク制限について詳しくは、こちらをご覧ください</block>
   <block id="a93742b808592a2ce1b1926f98f391eb" category="paragraph"><block ref="46bbc0e4d7a811f26e46cbb2c2ad7173" category="inline-link-macro-rx"></block>。</block>
   <block id="b4c4a8c75337dc28089aec3e79ae943c" category="list-text">従量課金制では、 Google Cloud Storage へのデータ階層化はサポートされません。</block>
@@ -553,7 +535,6 @@
   <block id="295f33d6ece0cb2125433cf6ec678e7e" category="paragraph">次の表は、ディスクのみの場合の VM サイズ別の最大システム容量と、オブジェクトストレージへのディスクおよびコールドデータの階層化を示しています。</block>
   <block id="f114a72e19307d64279cad76172579f0" category="list-text">シングルノードシステムでは、 Standard HDD Managed Disks 、 Standard SSD Managed Disks 、および Premium SSD Managed Disks を使用でき、ディスクあたり最大 32TiB を使用できます。サポートされるディスクの数は VM のサイズによって異なります。</block>
   <block id="bb8cb4958d23b69d96d3891aa7ae598a" category="list-text">HA システムでは、 Premium ページ BLOB をディスクとして使用し、 1 ページ Blob に対して最大 8 TiB を使用します。サポートされるディスクの数は VM のサイズによって異なります。</block>
-  <block id="c40775108b323ba29757ee7d6526594a" category="admonition">Cloud Volumes ONTAP BYOL システムでは、複数のノードベースライセンスを購入して、 368 TiB を超える容量を割り当てることができます。シングルノードシステムまたは HA ペアに対して購入できるライセンスの数に制限はありません。ディスク制限によって、ディスクだけを使用することで容量制限に達することがないことに注意してください。を使用すると、ディスク制限を超えることができます<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>。<block ref="cd9ff634efd9a4fe20f170cd618702b5" category="inline-link-rx"></block>。</block>
   <block id="50c51ed959c686d478aaf3f5e64ce255" category="cell">VM サイズ</block>
   <block id="1522e1d48d50a8b533ccfa8eeaad6405" category="cell">ノードあたりの MAX Data ディスク数</block>
   <block id="7f39f8317fbdb1988ef4c628eba02591" category="cell">61</block>
@@ -576,7 +557,6 @@
   <block id="fd09e7b7125ae29e623561a2b5d68449" category="cell">1-12^3^</block>
   <block id="e2f4de94176ab48a70e3d04c548660fd" category="list-text">ノードベースのライセンスを使用する場合、 384 TiB に到達するには 2 つの BYOL ライセンスが必要です。</block>
   <block id="73cbcc5508ae5bff313fecfcc6e16834" category="paragraph">これらはテスト済みの制限です。理論的には追加の Storage VM を設定できますが、サポート対象外です。</block>
-  <block id="b715b1ccc3469258fd6485e0f690ee32" category="paragraph"><block ref="b30615257fdd1ef7d59e50279858c1d0" category="inline-link-rx"></block>。</block>
   <block id="f732decff3cb02f88745e152cc078819" category="list-text">各 Storage VM に最大 3 つの LIF を設定できます。 2 つはデータ LIF 、 1 つは SVM 管理 LIF です。</block>
   <block id="e70747c71702cdc100bd5f592ed452be" category="summary">Cloud Volumes ONTAP には、いくつかのライセンスオプションがあります。それぞれのオプションを使用することで、ニーズに合わせた構成を選択できます。</block>
   <block id="be02aeef4770b69cefbe40935aba2797" category="doc">Cloud Volumes ONTAP のライセンス</block>
@@ -627,15 +607,12 @@
   <block id="bc503c45d950d94391e7685c6585b286" category="cell">m5dn. 12xlarge</block>
   <block id="30af1a6878bac3a7aaed5d0e64e7b511" category="paragraph">Cloud Volumes ONTAP にはさまざまなライセンスオプションがあり、それぞれのニーズに合った消費モデルを選択できます。</block>
   <block id="37439fa615a442ec183c1c602f9755f1" category="paragraph">容量ベースのライセンスは、 a_packag_ の形式で用意されています。Cloud Volumes ONTAP システムを導入する際には、ビジネスニーズに応じて、複数のライセンスパッケージから選択できます。</block>
-  <block id="f3b3e9858be5dbfaf6c39891db3263a2" category="paragraph"><block ref="f3b3e9858be5dbfaf6c39891db3263a2" category="inline-link-rx"></block></block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896TiB</block>
   <block id="e7a585efb4ff7fae4274ad6c7457c7c6" category="section-title">C4、M4、およびR4のインスタンスはサポートされなくなりました（2022年10月28日）</block>
   <block id="45468834981b77e3d08a5c6457436141" category="paragraph">AWSでは、C4、M4、およびR4 EC2インスタンスタイプはCloud Volumes ONTAP でサポートされなくなりました。C4、M4、またはR4インスタンスタイプで実行されている既存のシステムがある場合は、C5、m5、またはr5インスタンスファミリーでインスタンスタイプに変更する必要があります。</block>
   <block id="6614eabe1ab14f33107830de1efb584a" category="inline-link-macro">Cloud Volumes ONTAP のEC2インスタンスタイプを変更する方法について説明します</block>
-  <block id="f072eddf76dc8c19f3d32a7263fe7931" category="paragraph"><block ref="37cca4b92d12a1904a84ee04c60f6ada" category="inline-link-macro-rx"></block>。</block>
   <block id="09ea0908fbfc4cde85bf416e35dc55c8" category="inline-link-macro">ネットアップサポート</block>
   <block id="0b55c70d5652d8fe1f5ddc75633eaa95" category="paragraph">を参照してください <block ref="0bcfd67fb2b966e3378fbf640ee81a22" category="inline-link-macro-rx"></block> これらのインスタンスタイプの可用性とサポート終了の詳細については、を参照してください。</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
   <block id="2819feead2b07762a4465189ab8b2f52" category="paragraph-title">HA ペアの場合、ライセンスで許可されるノードあたりの容量制限はか、それとも HA ペア全体の容量制限ですか。</block>
   <block id="7093c2c9844cf46dcd5d50c6d596d244" category="paragraph-title">HA ペアの場合、ミラーリングされたデータはライセンスで許可されている容量の上限にカウントされますか。</block>
   <block id="dbe94f36417009d827f76ccf107bd90c" category="section-title">自動アプリケーションリソース管理ソリューションは使用しないでください</block>
@@ -654,24 +631,41 @@
   <block id="50cc29422b9e0a20958b889dcdd61a0f" category="section-title">ディスクとアグリゲートはBlueXPで管理する必要があります</block>
   <block id="0dca6333e3e343d1b25adfe474ce6b88" category="paragraph">すべてのディスクとアグリゲートは、BlueXPから直接作成および削除する必要があります。これらのアクションは、別の管理ツールから実行しないでください。これにより、システムの安定性が低下し、将来ディスクを追加できなくなる可能性があります。また、クラウドプロバイダの冗長料金が発生する可能性もあります。</block>
   <block id="9889b7a9df56580016f59ccd942fb1d1" category="inline-link">BlueXPリリースノート</block>
-  <block id="619c180e46c9dec776a0347d35298e14" category="paragraph">その他の機能と拡張機能も、最新バージョンのBlueXPで導入されました。を参照してください<block ref="6872c7556ed1cb501f7ddf52354e86ee" category="inline-link-rx"></block> を参照してください。</block>
   <block id="f9feb3a0d1558553de64c9e136dedc26" category="paragraph">バージョン3.9.13以降を実行しているコネクタがある場合、Microsoft AzureでCloud Volumes ONTAP に対して9.9.1 P8パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
   <block id="e55ab4b91be7692acc4a0195b3d0cb16" category="paragraph">バージョン 3.9.15 以降を実行しているコネクタがある場合、 Microsoft Azure で Cloud Volumes ONTAP に対して 9.9.1 P7 パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
   <block id="c98c8d42239bcb13c7f946d6e83f483d" category="paragraph">BlueXPでは、既存のシステムをこれらのパッチリリースにアップグレードするように求められます。</block>
   <block id="3b24d3e371104c521680dcfc7dde0918" category="paragraph">BlueXPでは、9.9.1リリース候補、9.9..0、または9.8のいずれかのバージョンを実行している既存のシステムをアップグレードするように求められます。</block>
   <block id="b717870f36232a807ee70d6b5e1124e8" category="paragraph">BlueXP 3.9.8リリースでは、次の変更が加えられました。</block>
   <block id="4e73a91635c6153175b8e85a4a0eb555" category="inline-link">BlueXPの新機能については、こちらをご覧ください</block>
-  <block id="8746a0cbfde3e6e31e72493e0d2fe9d2" category="paragraph"><block ref="59e18062adce6e4e30a838355b981ad6" category="inline-link-rx"></block>。</block>
   <block id="2667dffe2958f44e3989de4fdbba6e03" category="paragraph">最近のBlueXP 3.9.7リリースでは、新しいProfessionalパッケージのサポートが導入されました。このパッケージを使用すると、AWS Marketplaceから年間契約を結ぶことで、Cloud Volumes ONTAP とCloud Backup Service をバンドルできます。</block>
   <block id="c960a27070b92b29a446eed274113eaa" category="list-text">BlueXPには、ONTAP S3機能の管理機能はありません。</block>
   <block id="69d7d15e9cd221668022d228a90f926a" category="section-title">必要なBlueXPコネクタのバージョン</block>
   <block id="37b5b6f38f872444af45637d52d2588b" category="paragraph">新しいCloud Volumes ONTAP 9.9.1システムを導入し、既存のシステムを9.1.1にアップグレードするには、BlueXP Connectorのバージョン3.9.6以降が実行されている必要があります。</block>
   <block id="701d26ce60cde5dde5e95b3f6472bc81" category="list-text">9.9.0 リリースおよび 9.8 リリースから Cloud Volumes ONTAP 9.9.1 にアップグレードできます。BlueXPでは、既存のCloud Volumes ONTAP 9.0/9.8システムを9.9.1リリースにアップグレードするように求められます。</block>
   <block id="c716eebe2519c2ba4a2e109b59dd8b13" category="inline-link">BlueXPから通知があった場合のアップグレード方法について説明します</block>
-  <block id="bd4bd858d3e1a85d30586455b3e9daf2" category="paragraph"><block ref="6a49825bad49c3be284ac7a237bc2a26" category="inline-link-rx"></block>。</block>
-  <block id="07daff7fe86cfb582b0c246d7cefb754" category="list-text">シングルノードシステムを使用する場合、すべてのタイプのインスタンスで高速書き込みがサポートされます。展開中または後であればいつでも、BlueXPから高速の書き込み速度を有効にできます。<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>。</block>
-  <block id="6098d03c49b315476cd9c4d4eb330395" category="list-text">Cloud Volumes ONTAP では、 HA ペアを使用する場合、これらの VM タイプで高速な書き込み速度がサポートされます。展開中または後であればいつでも、BlueXPから高速の書き込み速度を有効にできます。<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>。</block>
   <block id="fde45fa5cd70a93e88151b83aa348f12" category="inline-link">BlueXP APIエンドポイント</block>
-  <block id="e86e72989c257fb5c6ba8da24c2c7c48" category="paragraph">を活用する場合は<block ref="e066b15eeebd4e6d571fd7dd588f94f7" category="inline-link-rx"></block> Cloud Volumes ONTAP を導入する VPC 内で、必要なにトラフィックを転送する DNS レコードを実装する必要があります<block ref="85f106dabc925307c90ceeec8d21a18f" category="inline-link-rx"></block>。</block>
   <block id="40aa449308d0af16355f19e61ffe344b" category="paragraph">いいえ、できません。HA ペアのデータは、 Google Cloud で障害が発生した場合にデータを利用できるように、ノード間で同期的にミラーされます。たとえば、ノードAで8 TBのディスクを購入した場合、BlueXPはノードBにも8 TBのディスクを割り当てます。このディスクはミラーリングされたデータに使用されます。16TB の容量がプロビジョニングされましたが、ライセンスの上限には 8TB しかカウントされません。</block>
+  <block id="12964005c5d7e3005a6efbac919f2869" category="paragraph">を活用する場合は<block ref="e066b15eeebd4e6d571fd7dd588f94f7" category="inline-link-rx"></block> Cloud Volumes ONTAP を導入する VPC 内で、必要なにトラフィックを転送する DNS レコードを実装する必要があります<block ref="f6959d0a2d8478df824c26fa5d8f2e95" category="inline-link-rx"></block>。</block>
+  <block id="79d3c4941fdb49ae08cc30405f716cce" category="list-text">一部の構成では、ディスク制限により、ディスクのみを使用して容量制限に達することができません。その場合、で容量の制限に達することができます<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。ディスクの制限については、を参照してください <block ref="71ccaacc6f6c8feca068c7ff1a7b2eb5" category="inline-link-macro-rx"></block>。</block>
+  <block id="9df4ca2adcfbf390d35edbeb52928a78" category="list-text">一部のインスタンスタイプにはローカル NVMe ストレージが含まれており、 Cloud Volumes ONTAP では _Flash Cache _ として使用されます。Flash Cache は、最近読み取られたユーザデータとネットアップのメタデータをリアルタイムでインテリジェントにキャッシングすることで、データへのアクセスを高速化します。データベース、 E メール、ファイルサービスなど、ランダムリードが大量に発生するワークロードに効果的です。Flash Cache のパフォーマンス向上を利用するには、すべてのボリュームで圧縮を無効にする必要があります。<block ref="da56a164195bbdee72f1dfc4ea53669d" category="inline-link-rx"></block>。</block>
+  <block id="ce4956d12fe22f1b1243720ce22651e0" category="list-text">Cloud Volumes ONTAP では、 HA ペアを使用する場合、ほとんどのインスタンスタイプで高速な書き込みがサポートされます。シングルノードシステムを使用する場合、すべてのタイプのインスタンスで高速書き込みがサポートされます。<block ref="721fe5ee3bbc3d8295d8615ed77ff9be" category="inline-link-rx"></block>。</block>
+  <block id="c00893a0ffabdcfdc5c2abd6001e5e33" category="admonition">Cloud Volumes ONTAP BYOL システムでは、複数のノードベースライセンスを購入して、 368 TiB を超える容量を割り当てることができます。シングルノードシステムまたは HA ペアに対して購入できるライセンスの数に制限はありません。ディスク制限によって、ディスクだけを使用することで容量制限に達することがないことに注意してください。を使用すると、ディスク制限を超えることができます<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>。</block>
+  <block id="fc8746b925f8923889b77841242bf054" category="paragraph"><block ref="771bd01d5b66ba0bcb76d734267dc8bb" category="inline-link-rx"></block>。</block>
+  <block id="ae90a2e4532cb9b615489b63c36e2383" category="paragraph"><block ref="dca5658ae26fff987979f5de0a83e9fd" category="inline-link-rx"></block>。</block>
+  <block id="efb78221b5926bd89d824f8dec9a7ed2" category="list-text">ディスク制限を使用すると、ディスクのみを使用することでシステムの最大容量に達することができません。を使用して容量の制限に達することができます<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。</block>
+  <block id="c46270a9bdf069bd0e015f7953e02355" category="paragraph"><block ref="c46270a9bdf069bd0e015f7953e02355" category="inline-link-rx"></block></block>
+  <block id="396e70da46ca6b8f2dd7d352ab5d7f16" category="paragraph">一部の構成では、ディスク制限により、ディスクのみを使用して容量制限に達することができません。を使用して容量の制限に達することができます<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。詳細については、以下のディスク制限を参照してください。</block>
+  <block id="e23e4dd8b34a9ee4e125975a6b71e9e6" category="paragraph"><block ref="5cefb3f020a9b716a037c381a6b28d4b" category="inline-link-rx"></block>。</block>
+  <block id="a990fdc46668be8e7f963c8df127bbe8" category="paragraph">一部の構成では、ディスク制限により、ディスクのみを使用して容量制限に達することができません。その場合、で容量の制限に達することができます<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。詳細については、以下の容量とディスクの制限を参照してください。</block>
+  <block id="74620547288f003c63c99ad0bb05f8b6" category="list-text">Cloud Volumes ONTAP BYOL システムに複数のノードベースライセンスを購入して、 368 TiB を超える容量を割り当てることができるようになりました。シングルノードシステムまたは HA ペアに対して購入できるライセンスの数に制限はありません。ディスク制限によって、ディスクだけを使用することで容量制限に達することがないことに注意してください。を使用すると、ディスク制限を超えることができます<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>。</block>
+  <block id="c0ad13124302d4d047c0f916a6418182" category="paragraph"><block ref="cc3941262f254d1055804ecddca39dec" category="inline-link-rx"></block>。</block>
+  <block id="4bdb15bfe1bad472d818dc31e8f53185" category="paragraph">その他の機能と拡張機能も、最新バージョンのBlueXPで導入されました。を参照してください<block ref="c7887e85c6060ae2594d873a0f2ae025" category="inline-link-rx"></block> を参照してください。</block>
+  <block id="34b2f4eab827285a262b1781e672e882" category="paragraph"><block ref="3f0e03f473a215943c109dc7746cdb60" category="inline-link-macro-rx"></block>。</block>
+  <block id="fe6a5baec235ed2ef8294950400bee9a" category="paragraph"><block ref="6e22851c75a2250209bafc3b226dc27a" category="inline-link-rx"></block>。</block>
+  <block id="73d1413bc306d2c4b0c75804a185cb92" category="paragraph">Cloud Volumes ONTAP のスループットパフォーマンスが向上しました いつ<block ref="2e39d8fdf30e9e16d9b726348766aa33" category="inline-link-rx"></block> サポートされているインスタンスタイプで有効になっている。</block>
+  <block id="4b323e04ca5d7cc4cd4fa2663891f134" category="paragraph"><block ref="1098c1d48c661da787dab89e43caa652" category="inline-link-rx"></block>。</block>
+  <block id="64440bb71539a777dc59cfbda8a3e5ee" category="list-text">この VM タイプにはローカルの NVMe ストレージが含まれており、 Cloud Volumes ONTAP では _Flash Cache _ として使用されます。Flash Cache は、最近読み取られたユーザデータとネットアップのメタデータをリアルタイムでインテリジェントにキャッシングすることで、データへのアクセスを高速化します。データベース、 E メール、ファイルサービスなど、ランダムリードが大量に発生するワークロードに効果的です。Flash Cache のパフォーマンス向上を利用するには、すべてのボリュームで圧縮を無効にする必要があります。<block ref="b6abeaa384c5670d0721bcc6323011fc" category="inline-link-rx"></block>。</block>
+  <block id="9655d27d34aaf491a4183d57c0530647" category="list-text">シングルノードシステムを使用する場合、すべてのタイプのインスタンスで高速書き込みがサポートされます。展開中または後であればいつでも、BlueXPから高速の書き込み速度を有効にできます。<block ref="721fe5ee3bbc3d8295d8615ed77ff9be" category="inline-link-rx"></block>。</block>
+  <block id="44ed637222e5d571deff68351343db0d" category="list-text">Cloud Volumes ONTAP では、 HA ペアを使用する場合、これらの VM タイプで高速な書き込み速度がサポートされます。展開中または後であればいつでも、BlueXPから高速の書き込み速度を有効にできます。<block ref="721fe5ee3bbc3d8295d8615ed77ff9be" category="inline-link-rx"></block>。</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
 </blocks>

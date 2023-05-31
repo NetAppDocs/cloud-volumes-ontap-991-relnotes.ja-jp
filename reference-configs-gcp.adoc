@@ -71,7 +71,7 @@ Cloud Volumes ONTAP は、フォールトトレランスとノンストップオ
 |===
 注：
 
-. ディスク制限を使用すると、ディスクのみを使用することでシステムの最大容量に達することができません。を使用して容量の制限に達することができます https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["使用頻度の低いデータをオブジェクトストレージに階層化します"^]。
+. ディスク制限を使用すると、ディスクのみを使用することでシステムの最大容量に達することができません。を使用して容量の制限に達することができます https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["使用頻度の低いデータをオブジェクトストレージに階層化します"^]。
 +
 link:reference-limits-gcp.html["Google Cloud のディスク制限について詳しくは、こちらをご覧ください"]。
 
