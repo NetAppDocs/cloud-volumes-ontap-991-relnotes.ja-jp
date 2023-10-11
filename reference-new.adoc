@@ -150,7 +150,7 @@ http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-clou
 * HA ペアのアップグレードは無停止で、 I/O が中断されません。無停止アップグレードでは、各ノードが連携してアップグレードされ、クライアントへの I/O の提供が継続されます。
 * AWSでは、新しいCloud Volumes ONTAP環境でc4、m4、およびr4 EC2インスタンスタイプはサポートされなくなりました。C4、M4、またはR4インスタンスタイプで実行されている既存のシステムがある場合は、C5、m5、またはr5インスタンスファミリーでインスタンスタイプに変更する必要があります。インスタンスタイプを変更できない場合は、アップグレード前に拡張ネットワークを有効にする必要があります。
 +
-link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html#upgrades-in-aws-with-c4-m4-and-r4-ec2-instance-types["C4、M4、R4 EC2インスタンスタイプを使用してAWSでアップグレードする方法^"]
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html#upgrades-in-aws-with-c4-m4-and-r4-ec2-instance-types["C4、M4、R4 EC2インスタンスタイプを使用してAWSでアップグレードする方法を確認する"^]。
 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-instance.html["Cloud Volumes ONTAP のEC2インスタンスタイプを変更する方法について説明します"^]。
 
 +

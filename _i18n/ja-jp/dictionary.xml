@@ -672,7 +672,7 @@
   <block id="2dbd9a217bce4c7ba4ef467f57d6875c" category="list-text">Cloud Volumes ONTAP BYOLシングルノードまたはHAペアシステム用に複数のノードベースライセンスを購入して、368TiBを超える容量を割り当てることができます（テストおよびサポートされるシステム容量の上限である2PiBまで）。ディスク制限によって、ディスクだけを使用することで容量制限に達することがないことに注意してください。を使用すると、ディスク制限を超えることができます<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>。Cloud Volumes ONTAPでは、テストおよびサポートされる最大システム容量2PiBまでサポートされますが、2PiBの制限を超えると、サポートされないシステム構成になります。</block>
   <block id="de9d6749570efc87e63811b5947fc250" category="list-text">AWS Secret CloudリージョンとTop Secret Cloudリージョンでは、Cloud Volumes ONTAP 9.12.1以降で複数のノードベースライセンスの購入がサポートされます。</block>
   <block id="fbf9b099d9ec8deac1671938fd60e8f8" category="list-text">AWSでは、新しいCloud Volumes ONTAP環境でc4、m4、およびr4 EC2インスタンスタイプはサポートされなくなりました。C4、M4、またはR4インスタンスタイプで実行されている既存のシステムがある場合は、C5、m5、またはr5インスタンスファミリーでインスタンスタイプに変更する必要があります。インスタンスタイプを変更できない場合は、アップグレード前に拡張ネットワークを有効にする必要があります。</block>
-  <block id="e6567e962bca159fe4fe2d30a50079b1" category="inline-link-macro">C4、M4、R4 EC2インスタンスタイプを使用してAWSでアップグレードする方法^</block>
-  <block id="25b6ed6b9d928059099051d0094805bd" category="paragraph"><block ref="14ef78ffd73c19fb64f58a6e03889f5c" category="inline-link-macro-rx"></block>
+  <block id="e1ec06a3bd4a559443a88f1cb6736c26" category="inline-link-macro">C4、M4、R4 EC2インスタンスタイプを使用してAWSでアップグレードする方法を確認する</block>
+  <block id="f295c0f45a8e22a4e4db9141680cce76" category="paragraph"><block ref="0fa12a627192b6cd097b12cd8088afe0" category="inline-link-macro-rx"></block>。
 <block ref="3f0e03f473a215943c109dc7746cdb60" category="inline-link-macro-rx"></block>。</block>
 </blocks>
