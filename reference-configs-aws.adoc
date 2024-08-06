@@ -108,7 +108,7 @@ AWS では、アグリゲートに同じタイプおよびサイズのディス�
 
 各 Cloud Volumes ONTAP ライセンスでサポートされる EC2 インスタンスタイプは異なります。次の表に、サポートされる各インスタンスタイプの vCPU 、 RAM 、および帯域幅を示します。 https://aws.amazon.com/ec2/instance-types/["最新かつ完全な情報については、 AWS を参照してください EC2 インスタンスタイプの詳細です"^]。
 
-次の表に示す帯域幅は、各インスタンスタイプごとにドキュメント化されている AWS の制限に一致しています。これらの制限は、 Cloud Volumes ONTAP が提供する機能と完全に一致しているわけではありません。想定されるパフォーマンスについては、を参照してください https://www.netapp.com/us/media/tr-4383.pdf["NetApp テクニカルレポート 4383 ：アプリケーションワークロードを使用した Amazon Web Services における Cloud Volumes ONTAP のパフォーマンス特性"^]。
+次の表に示す帯域幅は、各インスタンスタイプごとにドキュメント化されている AWS の制限に一致しています。これらの制限は、 Cloud Volumes ONTAP が提供する機能と完全に一致しているわけではありません。想定されるパフォーマンスについては、を参照してください https://www.netapp.com/pdf.html?item=/media/9088-tr4383pdf.pdf["NetApp テクニカルレポート 4383 ：アプリケーションワークロードを使用した Amazon Web Services における Cloud Volumes ONTAP のパフォーマンス特性"^]。
 
 [cols="8*"]
 |===
