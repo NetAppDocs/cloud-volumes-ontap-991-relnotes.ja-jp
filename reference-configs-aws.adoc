@@ -201,4 +201,4 @@ AWS では、アグリゲートに同じタイプおよびサイズのディス�
 
 == サポートされている地域
 
-AWS リージョンのサポートについては、を参照してください https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。
+AWSリージョンのサポートについては、を参照してください https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。

@@ -44,6 +44,6 @@ BlueXPからボリュームを作成するときにStorage Efficiencyを無効�
 * NFSv4 はサポートされていません。NFSv3 がサポートされています。
 * 一部のリージョンでは HA ペアがサポートされません。
 +
-https://cloud.netapp.com/cloud-volumes-global-regions["サポートされる Azure リージョンの一覧を参照してください"^]
+https://bluexp.netapp.com/cloud-volumes-global-regions["サポートされる Azure リージョンの一覧を参照してください"^]
 
 
